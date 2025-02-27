@@ -10,7 +10,7 @@ export function Header() {
   }
 
   return (
-    <header className="flex gap-3 p-2 items-center bg-gray-900/50 rounded-xl mt-4 border border-gray-500/50">
+    <header className="fixed bottom-4 md:top-4 md:bottom-auto flex gap-3 p-2 items-center bg-gray-900/50 rounded-xl border border-gray-500/50">
       <Button.Root onAction={() => handleClickButtonPage("/")}>
         <Button.Icon icon={Home} />
       </Button.Root>
@@ -19,7 +19,7 @@ export function Header() {
 
       <Button.Root onAction={() => handleClickButtonPage("/sobre")}>
         <Button.Icon icon={CircleUser} />
-        <Button.Label label="Sobre" />
+        <Button.Label label="Sobre"/>
       </Button.Root>
 
       <Button.Root onAction={() => handleClickButtonPage("/trabalhos")}>

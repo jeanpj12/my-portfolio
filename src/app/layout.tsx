@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased bg-color-[#0a0e0d] flex flex-col items-center`}>
+      <body className={`antialiased bg-color-[#0a0e0d] flex flex-col items-center md:pt-30 pt-10`}>
         <Header />
         {children}
         <MouseFollower />

@@ -3,5 +3,5 @@ interface ButtonLabelProps {
 }
 
 export function ButtonLabel({ label }: ButtonLabelProps) {
-  return <span>{label}</span>;
+  return <span className="hidden md:inline">{label}</span>;
 }

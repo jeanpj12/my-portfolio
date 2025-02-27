@@ -1,3 +1,3 @@
 export default function Home() {
-  return <>Hello</>;
+  return <div className="h-[120vh]">hello</div>;
 }
